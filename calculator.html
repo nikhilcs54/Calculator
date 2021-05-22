@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+       #para1{
+                height:415px;
+                width:312px;
+                background-color:#D3D3D3;
+                margin-top:200px;
+                margin-left:600px;
+                box-shadow: 5px 10px 8px #888888;
+            }
+            input{
+                width:307px;
+                border:none;
+                height:90px;
+                background-color: #D3D3D3;
+            }
+            input:focus{
+                outline:none !important;
+            }
+            input[type="text"]{
+                font-size:80px;
+                text-align: right;
+            }
+            input:hover{
+                color:blue;
+            }
+            #ac{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #adsb{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #mod{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #div{
+                width:70px;
+                height:60px;
+                background-color:#b0331f;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                color:white;
+                font-size:24px;
+            }
+            #sev{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #eig{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #nin{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #sta{
+                width:70px;
+                height:60px;
+                background-color:#b0331f;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                color:white;
+                font-size:24px;
+            }
+            #fou{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #fiv{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #six{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #sub{
+                width:70px;
+                height:60px;
+                background-color:#b0331f;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                color:white;
+                font-size:24px;
+            }
+            #one{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+                
+            }
+            #two{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+                
+            }
+            #thr{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #add{
+                width:70px;
+                height:60px;
+                background-color:#b0331f;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                color:white;
+                font-size:24px;
+            }
+            #zer{
+                width:148px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #poi{
+                width:70px;
+                height:60px;
+                background-color:white;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                font-size:24px;
+            }
+            #equ{
+                width:70px;
+                height:60px;
+                background-color:#b0331f;
+                border:none;
+                margin:2.5px;
+                font-weight: bold;
+                color:white;
+                font-size:24px;
+            }
+            
+    </style>
+</head>
+<body>
+    <div id="para1">
+        <div id="para2">
+        <input type="text" id="edu">
+        </div>
+        <div id="para3" class="btn" >
+            <input type="button" value="AC" id="ac" onclick="clr()"/>
+            <input type="button" value="+/-" id="adsb" onclick="adsb()"/>
+            <input type="button" value="%" id="mod" onclick="dis('%')"/>
+            <input type="button" value="/" id="div" onclick="dis('/')"/>
+            <input type="button" value="7" id="sev" onclick="dis('7')"/>
+            <input type="button" value="8" id="eig" onclick="dis('8')"/>
+            <input type="button" value="9" id="nin" onclick="dis('9')"/>
+            <input type="button" value="*" id="sta" onclick="dis('*')"/>
+            <input type="button" value="4" id="fou" onclick="dis('4')"/>
+            <input type="button" value="5" id="fiv" onclick="dis('5')"/>
+            <input type="button" value="6" id="six" onclick="dis('6')"/>
+            <input type="button" value="-" id="sub" onclick="dis('-')"/>
+            <input type="button" value="1" id="one" onclick="dis('1')"/>
+            <input type="button" value="2" id="two" onclick="dis('2')"/>
+            <input type="button" value="3" id="thr" onclick="dis('3')"/>
+            <input type="button" value="+" id="add" onclick="dis('+')"/>
+            <input type="button" value="0" id="zer" onclick="dis('0')"/>
+            <input type="button" value="." id="poi" onclick="dis('.')"/>
+            <input type="button" value="=" id="equ" onclick="solve()"/>
+        </div>
+    </div>
+    <script>
+        function dis(val){
+            document.getElementById("edu").value+=val;
+        }
+        function solve(){
+            let x=document.getElementById("edu").value
+            let y=eval(x)
+            document.getElementById("edu").value=y
+        }
+        function clr(){
+            document.getElementById("edu").value=""
+        }
+        let c=0;
+        function adsb(){
+            c++;
+            if(c%2!=0)
+            document.getElementById("edu").value+="+"
+            else
+            document.getElementById("edu").value+="-"
+        }
+        
+        
+        
+    </script>
+</body>
+</html>
