@@ -214,7 +214,7 @@
         </div>
         <div id="para3" class="btn" >
             <input type="button" value="AC" id="ac" onclick="clr()"/>
-            <input type="button" value="+/-" id="adsb" onclick="adsb()"/>
+            <input type="button" value="^" id="adsb" onclick="dis('**')"/>
             <input type="button" value="%" id="mod" onclick="dis('%')"/>
             <input type="button" value="/" id="div" onclick="dis('/')"/>
             <input type="button" value="7" id="sev" onclick="dis('7')"/>
@@ -245,18 +245,7 @@
         }
         function clr(){
             document.getElementById("edu").value=""
-        }
-        let c=0;
-        function adsb(){
-            c++;
-            if(c%2!=0)
-            document.getElementById("edu").value+="+"
-            else
-            document.getElementById("edu").value+="-"
-        }
-        
-        
-        
+        } 
     </script>
 </body>
 </html>
